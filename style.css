@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: rgb(150, 117, 96);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.button-card {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: 0.3s;
+  color: black;
+}
+
+.button-card:hover {
+  background-color: rgb(150, 117, 96);
+  cursor: pointer;
+  color: white;
+}
